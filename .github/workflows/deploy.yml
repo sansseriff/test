@@ -26,7 +26,7 @@ jobs:
         uses: actions/setup-node@v4
       - name: Copy files to Quartz content directory
         run: |
-          cp -r docs/* sites/docs/content/
+          cp -r docs/* sites/docs/
       - name: Install Dependencies
         run: | 
           cd sites/docs
