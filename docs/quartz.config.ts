@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "My Custom Page Title",
+    pageTitle: "Device Bay",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
